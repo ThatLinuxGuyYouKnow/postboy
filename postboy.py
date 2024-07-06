@@ -9,7 +9,7 @@ def main():
 
     url = args.target.rstrip('/') + "/{}"
     wordlist_file = args.dictionary
-    output_file = "found_endpoints.txt"
+    output_file = "found_endpoints.out"
 
     # Read wordlist from file
     with open(wordlist_file, 'r') as file:

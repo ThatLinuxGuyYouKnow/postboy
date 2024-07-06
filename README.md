@@ -1,9 +1,10 @@
-Postboy
+## Postboy
 
 An opsec tool for endpoint discovery via POST requests. Postboy is a Python script that tests endpoints on a target URL using a wordlist. It sends HTTP POST requests to the endpoints and logs the results.
 
 This tool exists because other endpoint discovery tools(like Gobuster) are only configured to send GETrequests, this causes false negatives as some endpoints are only configured for POST requests.
-Requirements
+
+### Requirements
 
     Python 3.x
     requests library
@@ -13,8 +14,7 @@ You can install the requests library using pip:
 ```bash
 pip install requests
 ```
-
-Usage
+###Usage
 
 To use Postboy, you need to provide a target URL and a wordlist file. The wordlist file should contain a list of endpoints, one per line.
 Command-Line Arguments

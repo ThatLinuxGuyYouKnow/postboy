@@ -34,6 +34,6 @@ The script will create an output file named found_endpoints.txt in the same dire
 
     Make multithreaded to increase speed
 
-    Configure to support GET requests
+    Configure to support GET requests ✅
 
     Detect redirects( prevents false positives when this tool is used on websites )

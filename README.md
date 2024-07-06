@@ -14,7 +14,7 @@ You can install the requests library using pip:
 ```bash
 pip install requests
 ```
-##Usage
+## Usage
 
 To use Postboy, you need to provide a target URL and a wordlist file. The wordlist file should contain a list of endpoints, one per line.
 Command-Line Arguments
@@ -22,15 +22,15 @@ Command-Line Arguments
 > -t, --target: The target URL (e.g., http://example.com).
 > -d, --dictionary: The path to the wordlist file.
 
-##Example
+## Example
 ```python
 python postboy.py -t http://super.evilcorpserver.com -d lists.txt
 ```
-##Output
+## Output
 
 The script will create an output file named found_endpoints.txt in the same directory, containing the endpoints that do not return a 404 status code.
 
-##Development Roadmap
+## Development Roadmap
 
     Make multithreaded to increase speed
 
